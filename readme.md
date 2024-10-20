@@ -1,5 +1,7 @@
 # E-Mark
 
+[![e-mark.png](https://i.postimg.cc/NFgJb28K/e-mark.png)](https://postimg.cc/PpRQ5xRH)
+
 E-Mark es una tienda en línea fundada en 2024, que ofrece una selección de productos que combinan moda y tecnología. Nuestro catálogo incluye electrónica, joyería, ropa para hombres y mujeres, con un enfoque en productos de vanguardia.
 
 ## ⭐ Características
