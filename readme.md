@@ -23,7 +23,7 @@ Deploy realizado con GitHub Pages.
 1- Clonar el repositorio:
 
 ```bash
-git clone https://github.com/usuario/e-mark.git
+git clone https://github.com/veritocapito/e-mark.git
 ```
 
 2- Abrir index.html en el navegador para visualizar el proyecto.
@@ -34,6 +34,7 @@ E-Mark está alojado en GitHub Pages.
 Puedes acceder a la aplicación en vivo desde este enlace:
 [E-Mark](https://veritocapito.github.io/e-mark/)
 
-## 👩‍💻 Autoras
+## 👩‍💻 Autora
 
-- Verónica Capobianco - [veritocapito@gmail.com](mailto:veritocapito@gmail.com)
+* Verónica Capobianco - [veritocapito@gmail.com](mailto:veritocapito@gmail.com)
+* LinkedIn => [vscapobianco](https://www.linkedin.com/in/vscapobianco/)
