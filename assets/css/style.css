@@ -99,22 +99,6 @@ header .navbar .navbar-nav .nav-item:hover a {
 }
 
 /* Back To Top */
-/* .back-to-top{
-  position: fixed;
-  bottom: 200px;
-  right: 20px;
-  font-size: 18px;
-  width: 40px;
-  line-height: 40px;
-  z-index: 99;
-  text-align: center;
-  display: none;
-  box-shadow: 0px 0px 30px 0px rgba(156, 156, 156, 0.25);
-  transition: all 0.4s ease-out 0s;
-  color: var(--bg-color);
-  background-color: var(--link-color); 
-} */
-
 .back-to-top{
   position: fixed;
   right: 2vw;
@@ -127,19 +111,18 @@ header .navbar .navbar-nav .nav-item:hover a {
   transition: all 0.4s ease-out 0s;
 }
 
-svg{
+.bi-chevron-up{
   padding: 5px;
   border-radius: 5px;
   color: var(--bg-color);
   background-color: var(--link-color); 
 }
 
-svg:hover {
+.bi-chevron-up:hover {
   color: var(--link-color);
   background-color: var(--font-color);
   cursor: pointer;
 }
-
 
 
 /* All Button Style */
@@ -253,7 +236,7 @@ a.main-btn{
   font-weight: 600;
 }
 
-/* Descount Product */
+/* Discount Product */
 @media (max-width: 767px) {
   .discount-product {
     padding-top: 50px; 
@@ -277,7 +260,7 @@ a.main-btn{
   position: absolute;
   top: 0;
   left: 0;
-  padding: 45px 30px; 
+  padding: 30px 30px; 
 }
 
 @media (max-width: 767px) {
@@ -308,18 +291,16 @@ a.main-btn{
 }
 
 .single-discount-product .product-content a {
-  color: var(--font-color);
-  font-size: 16px;
+  color: var(--nav-color);
+  font-size: 1rem;
   font-weight: 500;
   transition: all 0.4s ease-out 0s; 
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 2px; 
 }
 
-.single-discount-product .product-content a i {
-  font-size: 10px;
-  margin-left: 5px; 
-}
-
-.single-discount-product .product-content a:hover {
+.single-discount-product .product-content a:hover, .bi-chevron-right:hover {
   color: var(--link-color); 
 }
 
@@ -327,6 +308,20 @@ a.main-btn{
   transform: scale(1.2); 
 }
 
+.slick-track{
+  opacity: 0.95; 
+  width: 555px; 
+  height: 292px; 
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.product-content{
+  text-shadow: 10px 10px 50px 10px rgba(156, 156, 156, 0.25);
+}
+
+.bi-chevron-right{
+  color: var(--nav-color);
+}
 
 /* Footer */
 footer {
