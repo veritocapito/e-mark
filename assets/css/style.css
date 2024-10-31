@@ -6,6 +6,7 @@
   --title-color: #333;
   --nav-color: #be6e29;
   --link-color:#fe7865;
+  --section-color: ##fef9f5;
   --bg-slider-color: var(--bg-color);
 }
 
@@ -434,7 +435,7 @@ a.main-btn{
 
 /* Services */
 .services-area {
-  background-color: #fef9f5; 
+  background-color: var(--section-color); 
 }
 
 .services-left {
@@ -459,6 +460,32 @@ a.main-btn{
 .single-services .services-content .title {
   font-size: 20px;
   color: var(--link-color); 
+}
+
+/* Showcase */
+
+.showcase-title .title {
+  font-size: 35px; 
+}
+
+.single-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 500px;
+}
+
+.showcase-active {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  color: var(--bg-color);
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer; 
+  background-color: var(--section-color); 
 }
 
 /* Footer */
@@ -564,14 +591,42 @@ footer {
     padding-top: 75px;
     padding-bottom: 80px; 
   } 
+
+  .showcase-title .title {
+    font-size: 30px; 
+  } 
+
+  .single-showcase {
+    margin: 0; 
+  } 
+
+  .showcase-area {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  } 
+
+  .single-showcase .main-btn {
+    line-height: 48px;
+    padding: 0 40px;
+    font-size: 16px;
+    bottom: 20px;
+    left: 40px; 
+  }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .single-discount-product .product-content {
     padding: 25px 30px; 
   } 
+
   .single-discount-product .product-content .content-title {
     font-size: 20px;
     line-height: 30px; 
+  } 
+
+  .single-showcase {
+    margin-right: 30px;
+    margin-bottom: 20px; 
   } 
 }
