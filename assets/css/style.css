@@ -51,8 +51,9 @@ h1 span{
 }
 
 h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 800;
   color: var(--title-color);
+  font-family: "Poppins", sans-serif;
   margin: 0px; 
 }
 
@@ -551,6 +552,119 @@ svg.bi:hover {
   box-shadow: 0px 0px 7px 0px rgba(254, 119, 101, 0.55); 
 }
 
+.cover-area {
+  position: relative;
+}
+
+.cover-bg{
+  background-image: url('../img/job.jpg');
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+/* Contact */
+.contact-area .contact-title .title {
+  font-size: 60px;
+  color: var(--text-color); 
+  margin: 25px 0;
+}
+
+.contact-box {
+  padding: 10px 40px 40px;
+  box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.25);
+  background-color: color: var(--bg-color); 
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.contact-info .info-title {
+  font-size: 26px;
+  padding-bottom: 5px; 
+}
+
+.contact-info ul{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.single-info {
+  position: relative; 
+}
+
+.single-info .info-icon {
+  position: absolute;
+  left: 0;
+  top: 0; 
+}
+
+.single-info .info-content {
+  padding-left: 40px; 
+  padding-right: 20px; 
+}
+
+.single-info .info-content p {
+  font-size: 18px;
+  font-weight: 500; 
+}
+
+.single-info .info-content p a {
+  text-decoration: none;
+  color: var(--text-color); 
+}
+
+.form-group {
+  margin: 0; 
+}
+
+.single-form {
+  margin-top: 30px; 
+}
+
+.single-form textarea, .single-form input {
+  width: 100%;
+  height: 55px;
+  border: 1px solid #ddd;
+  background-color: #f7f7ff;
+  padding: 0 20px; 
+}
+
+.single-form textarea {
+  height: 155px;
+  padding-top: 15px;
+  resize: none; 
+}
+
+.single-form textarea::placeholder, .single-form input::placeholder {
+  opacity: 1;
+  color: var(--font-color); 
+}
+
+p.form-message.success,
+p.form-message.error {
+  font-size: 16px;
+  color: var(--text-color);
+  background: #ddd;
+  padding: 10px 15px;
+  margin-left: 15px;
+  margin-top: 15px; 
+}
+
+p.form-message.error {
+  color: #f00; 
+}
+
+.list-unstyled li {
+  font-size: 13px;
+  margin-left: 2px;
+  margin-top: 5px;
+  color: #f00; 
+}
+
 
 /* Footer */
 footer {
@@ -682,6 +796,23 @@ footer {
     padding-bottom: 80px; 
      
   }
+  
+  .contact-area .contact-title .title {
+    font-size: 35px; 
+  } 
+
+  .contact-area {
+    padding-top: 70px; 
+  } 
+
+  .contact-box {
+    padding: 0 20px  20px; 
+  } 
+  
+  .single-info .info-content p {
+    font-size: 16px; 
+  } 
+  
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
