@@ -521,7 +521,7 @@ svg.bi:hover {
 
 .single-temp .team-content span {
   font-size: 14px;
-  color: #777;
+  color: var(--font-color);
   display: block;
   text-transform: uppercase;
   font-weight: 500;
@@ -529,7 +529,7 @@ svg.bi:hover {
 }
 
 .single-temp .team-content .social {
-  border: 1px solid #fe7865;
+  border: 1px solid var(--link-color);
   display: inline-block;
   line-height: 38px;
   padding: 0 15px;
@@ -576,8 +576,6 @@ svg.bi:hover {
   padding: 10px 40px 40px;
   box-shadow: 0px 0px 40px 0px rgba(156, 156, 156, 0.25);
   background-color: color: var(--bg-color); 
-  max-width: 80%;
-  margin: 0 auto;
 }
 
 .contact-info .info-title {
@@ -667,9 +665,81 @@ p.form-message.error {
 
 
 /* Footer */
-footer {
+.footer-area {
+  background-image: url('../img/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.footer-widget{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-logo .footer-social li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.footer-logo p{
+  line-height: 1.8;
+  text-wrap: balance;
+}
+
+.footer-logo .footer-social li:first-child {
+  margin-left: 0; 
+}
+
+.footer-logo .footer-social li a {
+  font-size: 16px;
+  color: var(--font-color);
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 5px 21px 0px rgba(254, 119, 101, 0.2);
+  transition: all 0.4s ease-out 0s;
+  border-radius: 50%; 
+}
+
+.f-title {
+  font-size: 20px;
+  padding-bottom: 5px; 
+  padding-left: 32px;
+}
+
+.footer-link ul li {
+  margin-top: 15px;
+}
+
+.footer-link ul li a {
+  transition: all 0.4s ease-out 0s; 
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.footer-info {
+  padding-left: 70px; 
+}
+
+.single-footer-info {
+  position: relative; 
+}
+
+.single-footer-info span {
+  font-size: 16px;
+  color: var(--text-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.single-footer-info .footer-info-content {
+  padding-left: 80px; 
 }
 
 .credits{
@@ -706,6 +776,12 @@ footer {
 
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-info {
+    padding-left: 0; 
+  } 
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .product-items-active .slick-arrow i {
     width: 30px;
@@ -728,6 +804,14 @@ footer {
   .collection-menu .collection-tilte {
     font-size: 20px;
     padding: 15px 10px; 
+  } 
+
+  .footer-info {
+    padding-left: 0; 
+  } 
+
+  .footer-area::before {
+    height: 1450px; 
   } 
 }
 
@@ -813,6 +897,18 @@ footer {
     font-size: 16px; 
   } 
   
+  .footer-area::before {
+    height: 1700px; 
+  }
+
+  .footer-widget {
+    padding-top: 30px;
+    padding-bottom: 80px;
+  } 
+
+  .footer-info {
+    padding-left: 0; 
+  } 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
