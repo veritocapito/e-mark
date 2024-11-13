@@ -37,16 +37,17 @@
         </div>
     </header>
     <div id="home" class="pb-90"></div>
-    <section class="slider-area px-5 pb-5 mx-5r">
-        <div class="container px-5  ">
-            <div id="carouselExampleSlidesOnly" class="carousel slide px-5" data-bs-ride="carousel">
+
+    <section class="slider-area px-5 pb-5">
+        <div class="container px-5">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="d-block w-100 d-flex gap-5 align-items-center">
                             <div class="col-lg-4 col-md-5">
                                 <img src="./assets/img/slider1.jpg" alt="Shop: clothes" class="img-fluid">
                             </div>
-                            <div class="slider-discount-tag">
+                            <div class="slider-discount-tag d-none d-xl-block">
                                 <p>-50% <br> OFF</p>
                             </div>
                             <div class="col-lg-8 col-md-7">
@@ -69,7 +70,7 @@
                             <div class="col-lg-4 col-md-5">
                                 <img src="./assets/img/slider2.jpg" alt="Shop: technology" class="img-fluid">
                             </div>
-                            <div class="slider-discount-tag">
+                            <div class="slider-discount-tag d-none d-xl-block">
                                 <p>-20% <br> OFF</p>
                             </div>
                             <div class="col-lg-8 col-md-7">
@@ -88,7 +89,7 @@
                             <div class="col-lg-4 col-md-5">
                                 <img src="./assets/img/slider3.jpg" alt="Shop: accesories" class="img-fluid">
                             </div>
-                            <div class="slider-discount-tag">
+                            <div class="slider-discount-tag d-none d-xl-block">
                                 <p>Free<br> Quote</p>
                             </div>
                             <div class="col-lg-8 col-md-7">
@@ -105,7 +106,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section id="discount-product" class="discount-product pt-100 pb-100 ">
@@ -156,7 +156,7 @@
     <main id="product" class="product-area pt-160 pb-160">
         <div class="container  px-5">
             <div class="row">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-3 col-md-5">
                     <div class="collection-menu text-center mt-30">
                         <h4 class="collection-tilte">OUR COLLECTION</h4>
                         <div class="nav flex-column nav-pills" id="v-pills-tab">
@@ -168,14 +168,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-8">
+                <div class="col-lg-9 col-md-7">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active " id="v-pills-electronics" role="tabpanel"
                             aria-labelledby="v-pills-electronics-tab">
                             <div class="product-items mt-30">
                                 <div class="row product-items-active slick-initialized slick-slider">
-                                    <div class="slick-list draggable d-flex gap-3">
-                                        <div class="slick-track" style="width: 293px;">
+                                    <div class="slick-list draggable d-flex flex-wrap gap-3 justify-content-center align-items-center">
+                                        <div class="slick-track mb-30" style="width: 293px;">
                                             <div class="single-product-items">
                                                 <div class="product-item-image">
                                                     <a href="product-single.html" tabindex="-1"><img
@@ -345,7 +345,6 @@
         </div>
     </section>
 
-
     <section id="showcase" class="showcase-area pt-100 pb-130">
         <div class="container px-5">
             <div class="row">
@@ -405,7 +404,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-8">
                     <div class="single-temp text-center mt-30">
                         <div class="team-image mt-30">
-                            <img src="https://avatar.iran.liara.run/public/86" alt="Team">
+                            <img src="./assets/img/av1.jpg" alt="Team">
                         </div>
                         <div class="team-content mt-30">
                             <h4 class="title mb-10">Veronica Capobianco</h4>
@@ -425,7 +424,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-8">
                     <div class="single-temp text-center mt-30">
                         <div class="team-image mt-30">
-                            <img src="https://avatar.iran.liara.run/public/37" alt="Team">
+                            <img src="./assets/img/av3.jpg" alt="Team">
                         </div>
                         <div class="team-content mt-30">
                             <h4 class="title mb-10">Charles Smith</h4>
@@ -445,7 +444,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-8">
                     <div class="single-temp text-center mt-30">
                         <div class="team-image mt-30">
-                            <img src="https://avatar.iran.liara.run/public/10" alt="Team">
+                            <img src="./assets/img/av2.jpg" alt="Team">
                         </div>
                         <div class="team-content mt-30">
                             <h4 class="title mb-10">Mark Robertson</h4>
@@ -465,7 +464,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-8">
                     <div class="single-temp text-center mt-30">
                         <div class="team-image mt-30">
-                            <img src="https://avatar.iran.liara.run/public/74" alt="Team">
+                            <img src="./assets/img/av4.jpg" alt="Team">
                         </div>
                         <div class="team-content mt-30">
                             <h4 class="title mb-10">Marisol Duclos</h4>
@@ -580,10 +579,10 @@
     </section>
 
     <footer id="footer" class="footer-area pt-150">
-        <div class="container px-5">
+        <div class="container">
             <div class="footer-widget pb-10">
                 <div class="row px-5 ml-5">
-                    <div class="col-lg-4 col-md-5 col-sm-7">
+                    <div class="col-lg-4 col-md-8 col-sm-12">
                         <div class="footer-logo">
                             <img src="./assets/img/logo.jpg" alt="E-Mark Logo">
                             <p class="mt-10 px-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab pariatur
@@ -604,10 +603,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-5">
+                    <div class="col-lg-3 col-md-4 col-sm-12">
                         <div class="footer-link mt-50">
                             <h5 class="f-title">Help</h5>
-                            <ul>
+                            <ul class="footer-help">
                                 <li><a href="#">Forum</a></li>
                                 <li><a href="#">Help Center</a></li>
                                 <li><a href="#">Contact Us</a></li>
@@ -615,7 +614,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-4 col-sm-5">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
                         <div class="footer-link mt-50">
                             <h5 class="f-title">Contact Info</h5>
                             <ul>
