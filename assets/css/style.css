@@ -822,6 +822,57 @@ p.form-message.error {
     padding-left: 0; 
   } 
 
+  .navbar-toggler {
+    display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .navbar-collapse.show {
+    max-height: 300px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+
 }
 
 @media (max-width: 767px) {
