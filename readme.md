@@ -7,15 +7,15 @@ E-Mark es una tienda en línea fundada en 2024, que ofrece una selección de pro
 ## ⭐ Características
 
 Diseño web limpio y responsive usando HTML, CSS, Bootstrap y JavaScript.
-Funcionalidad de carrito de compras para añadir productos.
-Consumo de productos desde la API Fake Store API.
+Captura y almacenamiento de datos de formulario de contacto en el local storage.
+Consumo de productos dinámicamente desde archivo js.
+Menú hamburguesa para dispositivos móviles.
 Deploy realizado con GitHub Pages.
 
 ## 💻 Tecnologías Utilizadas
 
 - HTML5 / CSS3 / Bootstrap: Estructura y estilos.
-- JavaScript: Manejo de la lógica de carrito de compras.
-- Fake Store API: API para cargar los productos.
+- JavaScript: dinamica de productos, menu y datos de contacto.
 - GitHub Pages: Para deploy de la aplicación.
 
 ## 🚀 Instalación
